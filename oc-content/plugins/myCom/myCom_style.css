@@ -1,0 +1,119 @@
+*{ margin: 0; padding: 0; }*
+
+a {color: #266ba8; text-decoration: none; cursor:pointer;}
+a:hover { color: #995;text-decoration: none; }
+h2 {font-size: 18px; font-weight:bold; color:#133b5e; padding:4px; margin-bottom:12px; border-bottom:1px solid #CCC;}
+#myCom_form {position:relative; left:0px;}
+#myCom_form  .myCom_title{position:relative; left:-12px; width:594px; height:70px; background: #EEE }
+#myCom_form  .myCom_title h2{margin:0;}
+#myCom_form  .myCom_title .left{float:left; padding:5px; width:500px;}
+#myCom_form .addcoment {position:relative; top:-15px; background: #EEE; border:5px solid #93afbc; display:none;}
+#myCom_form .addcoment img:hover{cursor:pointer;}
+#myCom_form  textarea{ width:90%; font-size:12px; height: 50px; margin:10px; overflow:hidden; background:#FFF; border:1px solid #DDD;}
+#myCom_form  input[type="text"]{padding-left:10px; width:90%; height:25px; font-size:15px; line-height: 1.8em; margin:10px 5px 0px 10px; border:1px solid #DDD;}
+#myCom_form  .addcoment span{position:relative; top:-10px; margin-right:180px; left:180px; font-size:20px; color:#292;}
+#myCom_form  #statusbox{padding-left:10px; line-height:55px; color:#888; font-size:18px; height:50px;}
+#myCom_form  img.button_add{margin:10px 5px 0px 10px; padding:0; border:0; float:none;}
+#myCom_form .top {font-size:15px; height:47px; padding:15px 15px 0px 195px; color:#9e9968;}
+#myCom_form .main {position:relative;}
+#myCom_form .block_name {height:40px; position:relative; left:10px; top:10px;}
+#myCom_form .name {height:40px; font-size:17px; font-weight:normal; color: #070; float:left;}
+#myCom_form .date {height:40px; font-size:10px; position:relative; left:-10px; float:right; color: #555;}
+#myCom_form img{ float:left;}
+#myCom_form .coment{position:relative; left:-12px; width:554px; padding:19px 20px 10px 20px; border-bottom:1px solid #DDD; font-size:12px; background: #f7f4ca url(images/coment_top.png) left top no-repeat; text-align:justify;}
+/*.comForCom {margin: 5px 20% 5px 5%; background-color: #d4f0f7; padding: 5px 10px; overflow:hidden}*/
+.myComSend {
+    margin: -2px 5% 5px 5%;
+    background-color: #eff9fe;
+    padding: 5px 10px;
+    overflow:hidden;
+    /* Border */
+
+    border: 1px solid #a5bcc0;
+
+    /* Border-Radius */
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+.myComSend input{margin: 2px 0 2px 0}
+.comForCom {/* Border */
+    margin: 0 5% 0 5%;
+    padding: 5px 10px;
+    overflow:hidden;
+
+    /* Border */
+    border: 1px solid #a5bcc0;
+
+    /* Border-Radius */
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+
+
+    background: #eff9fe;
+
+    /* Box-Shadow */
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    -moz-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+
+    /* Opacity
+    -moz-opacity: 0.60;
+    -khtml-opacity: 0.60;
+    opacity: 0.60;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    filter: alpha(opacity=60);*/
+
+    /* Text-Shadow */
+    text-shadow: 0px 0px 0px #000;}
+.comForCom ul:not(.firstClassCom)  {
+    border-top: 1px solid #a5bcc0;
+}
+
+.myComAnswer, .myComDelete {
+    float: right;
+}
+.a_for_comment {margin: 3px 5% 5px 5%}
+.a_for_comment a{float: right}
+
+#blackout {
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+
+    overflow: hidden;
+    z-index: 10;
+    left: 0;
+    display: none;
+}
+.contact_information {
+    border: solid 2px #c9d7f5;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 2%;
+    z-index: 11;
+    background-color: #d8eeeb;
+    overflow-y: auto;
+    position:fixed;
+    box-shadow:  10px -10px 10px -4px rgba(0,0,0,.2);
+    -webkit-box-shadow:  10px -10px 10px -4px rgba(0,0,0,.2);
+    -moz-box-shadow:  10px -10px 10px -4px rgba(0,0,0,.2);
+}
+.popup-box .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: #434343;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.popup-box .close:hover {
+    color: #000;
+}
